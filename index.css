@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(205, 100%, 96%);;
+    height: 100vh;
+}
+
+
+#title{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family:sans-serif;
+    line-height: 1rem;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    text-transform: capitalize;
+}
+
+.underline{
+    border-bottom: 4px solid rgb(68, 68, 255);
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
+    height: 0.5rem;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-right: 5px solid blue;
+    
+    /* background-color: wheat; */
+    /* padding: 50px; */
+    margin: 30px;
+    /* height: fit-content; */
+}
+
+.container-section{
+    margin: auto;
+    /* margin-left: 50vw; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: vh; */
+    width: 80vw;
+    height: 90vh;
+    /* margin-top: 40vh; */
+    /* background-color: bisque; */
+}
+
+.card{
+    background-color: hsl(210, 36%, 96%);
+    /* box-sizing: border-box; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);;
+    text-align: center;
+    width: 40vw;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    /* display: inline-block; */
+    overflow:;
+
+}
+
+@media screen  and(min-width:600){
+    .card{
+        height: 40vh;
+        background-color: chocolate;
+    }
+
+}
+
+.review{
+    /* padding: text; */
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+}
+
+
+.buttons{
+    /* border: 2px solid green; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* background-color: white; */
+    margin-top: 1.5rem;
+}
+
+.previous , .forward{
+    font-size: 1.5rem;
+    border: transparent;
+    background: transparent;
+    margin: 0 0.5rem;
+    transition: all 0.1s linear;;
+    cursor: pointer;
+}
+
+.previous:hover , .forward:hover{
+    color: blue;
+}
+
+.random-button{
+    padding: 0.1rem 0.5rem;
+    border-radius: 7px;
+    /* box-shadow:5px black; */
+    border-style: ridge;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: rgb(88, 144, 190);
+    border-color:  rgb(88, 144, 190);
+    transition: all 0.2s linear;
+    font-weight: lighter;
+}
+
+.random-button:hover{
+    background-color: rgb(129, 129, 241);
+    color: whitesmoke;
+}
